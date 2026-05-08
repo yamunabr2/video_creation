@@ -95,8 +95,8 @@ def create_video(image_files, duplicate_count, fps, audio_path):
 st.set_page_config(page_title="PragyanAI Video Creator", layout="wide")
 
 # Display logo if it exists
-if os.path.exists("PragyanAI_Transperent.png"):
-    st.image("PragyanAI_Transperent.png")
+if os.path.exists("Screenshot 2025-04-09 120630.png"):
+    st.image("Screenshot 2025-04-09 120630.png")
 
 st.title("PragyanAI - Multimedia Merger")
 st.markdown("Upload multiple images, specify timing, and add audio from a file or YouTube.")
